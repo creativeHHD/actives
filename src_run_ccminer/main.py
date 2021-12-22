@@ -1,6 +1,5 @@
 import os, json, time
-from progress.spinner import MoonSpinner
-
+#from progress.spinner import MoonSpinner
 # banner
 setting_banner = """
 ╔═══════════════════════════════════════╦══════════╗
@@ -22,16 +21,14 @@ running_banner = """
 
 # banner function
 def banner(logo):
-    os.system("lscpu")
-    time.sleep(5)
     os.system("clear")
     print(logo,"\nDevelobment by CREATIVE-HD")
     print("---------------------------------------------------") 
-    print("                   ACTIVE MODE"
-        + ""
-        + "            โหมดติดตั้ง TERMUX AUTO START "
-        + "            CCMINER AFTER BOOT DEVIDE"
-        + "                RUNING AUTOMATIC"
+    print("                   ACTIVE MODE\n"
+        + "\n"
+        + "            โหมดติดตั้ง TERMUX AUTO START\n "
+        + "            CCMINER AFTER BOOT DEVIDE\n"
+        + "                RUNING AUTOMATIC'n"
         + "                                           DEC.2021")
     print("---------------------------------------------------\n")
 
@@ -39,7 +36,7 @@ def banner(logo):
 # install miner function 
 def install():
     # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
-    os.system("git clone https://github.com/creativeHHD/active")
+    os.system("git clone https://github.com/creativeHHD/ccminer_mmv")
 
 # run miner function
 def run():
