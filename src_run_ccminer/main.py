@@ -21,6 +21,7 @@ running_banner = """
 
 # banner function
 def banner(logo):
+    os.system("clear")
     os.system("lscpu")
     time.sleep(5)
     os.system("clear")
