@@ -16,11 +16,11 @@ def banner(logo):
     os.system("clear")
     print(logo,"\nDevelobment by CREATIVE-HD")
     print("---------------------------------------------------") 
-    print("                   EDIT MODE"
+    print("                   EDIT MODE\n"
         + ""
-        + "            โหมดติดตั้ง TERMUX AUTO START "
-        + "            CCMINER AFTER BOOT DEVIDE"
-        + "                RUNING AUTOMATIC"
+        + "            โหมดติดตั้ง TERMUX AUTO START \n"
+        + "            CCMINER AFTER BOOT DEVIDE\n"
+        + "                RUNING AUTOMATIC\n"
         + "                                           DEC.2021")
     print("---------------------------------------------------\n")
 
@@ -61,7 +61,7 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-with MoonSpinner("กำลังทำงาน...") as bar:
+with MoonSpinner("โปรดรอ...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
