@@ -8,7 +8,7 @@ apt-get update
 apt-get install git -y
 ```
 ```
-git clone https://creativehhd.github.io/active
+git clone https://github.com/creativeHHD/active
 ```
 ```
 cd auto-run-ccminer
@@ -16,11 +16,13 @@ cd auto-run-ccminer
 ```
 sh setup.sh
 ```
-เปิดไฟล์ bash.bashrc บรรทัดแรกใส่ run-miner กด save
+* หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น
+- ```run-miner```
+* แล้ว save
 
-@คำสั่งใช้งาน
-* หยุดขุดกด CTRL + C
-* การเปลี่ยน pool or wallet ใช้คำสั่ง edit-miner
-* เปิดขุด ใช้คำสั่ง run-miner
+## เพิ่มเติมการใช้โปรแกรม
+* หยุดขุดกด ```CTRL + C```
+* การเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
+* เปิดขุด ใช้คำสั่ง ```run-miner```
 
-
+# creativeHHD
