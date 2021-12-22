@@ -1,5 +1,5 @@
 import os, json, time
-#from progress.spinner import MoonSpinner
+from progress.spinner import MoonSpinner
 # banner
 setting_banner = """
 ╔═══════════════════════════════════════╦══════════╗
