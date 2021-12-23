@@ -11,6 +11,15 @@ edit_banner = """
 ║██   A █ C████ T █  I █ V███   E █████ ║EDIT MODE║
 ╚═══════════════════════════════════════╩═════════╝"""
 
+activedroidedit_banner = """
+                     ╲___╱
+                    ╭ ▄ ▄ ╮
+                    ╿  -  ╿
+                  █ ███████ █
+                  █ █EDIT.█ █
+                    ███████ 
+                     ██ ██"""
+
 # banner function
 def banner(logo):
     os.system("clear")
@@ -27,6 +36,7 @@ def banner(logo):
 # setting function
 def set_miner():
     banner(edit_banner)
+    banner(activedroidedit_banner)
     pool = None
     wallet = None
     password = None
