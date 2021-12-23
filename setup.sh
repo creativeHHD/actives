@@ -1,11 +1,3 @@
-apt-get update
-apt-get install git -y
-
-
-git clone https://github.com/creativeHHD/actives
-cd actives
-
-
 apt-get install libcurl4-openssl-dev -y
 apt-get install libssl-dev -y
 apt-get install libjansson-dev -y
