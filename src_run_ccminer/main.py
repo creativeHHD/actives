@@ -19,24 +19,6 @@ running_banner = """
 ║██A    █  C███   T    I  V██    E█████ ║ START  ║
 ╚═══════════════════════════════════════╩════════╝"""
 
-activedroid_banner = """
-                     ╲___╱
-                    ╭ ▄ ▄ ╮
-                    ╿  -  ╿
-                  █ ███████ █
-                  █ ██SET██ █
-                    ███████ 
-                     ██ ██"""
-
-activedroid1_banner = """
-                     ╲___╱
-                    ╭ ▄ ▄ ╮
-                    ╿  -  ╿
-                  █ ███████ █
-                  █ ██RUN██ █
-                    ███████ 
-                     ██ ██"""
-
 # banner function
 def banner(logo):
     os.system("clear")
@@ -59,7 +41,6 @@ def install():
 # run miner function
 def run():
     banner(running_banner)
-    banner(activedroid1_banner)
     with open("set-miner/miner.json", encoding="utf-8") as set:
         load = set.read()
         loads = json.loads(load)
@@ -79,7 +60,6 @@ def run():
 
 def set_miner():
     banner(setting_banner)
-    banner(activedroid_banner)
     pool = None
     wallet = None
     password = None
