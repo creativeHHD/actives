@@ -3,11 +3,11 @@ from progress.spinner import MoonSpinner
 # banner
 setting_banner = """
 ╔═══════════════════════════════════════╦════════╗
-║    ████  ████ █████  █  █    ██ █████ ║  V.1   ║
-║   ██  █  █      █       █   ██        ║CREATIVE║
+║    ████  ████ █████  █  █    ██ █████ ║   V.1  ║
+║   ██  █  █      █    █  █   ██        ║CREATIVE║
 ║  ██ ███  █      █    █  █  ██   ███   ║   HD   ║
 ║ ██    █  █      █    █  █ ██          ╠════════╣
-║██A    █  C███   T    I  V██     ████E ║SETTING ║
+║██    A█ C████  T█   I█ V███    E█████ ║SETTING.║
 ╚═══════════════════════════════════════╩════════╝"""
 
 running_banner = """
@@ -16,7 +16,7 @@ running_banner = """
 ║   ██  █  █      █       █   ██        ║CREATIVE║
 ║  ██ ███  █      █    █  █  ██   ███   ║   HD   ║
 ║ ██    █  █      █    █  █ ██          ╠════════╣
-║██A    █  C███   T    I  V██     ████E ║ START  ║
+║██A    █  C███   T    I  V██    E█████ ║ START  ║
 ╚═══════════════════════════════════════╩════════╝"""
 
 # banner function
@@ -26,9 +26,9 @@ def banner(logo):
     print("-------------------------------------------------") 
     print("                   ACTIVE MODE\n"
         + "\n"
-        + "            โหมดติดตั้ง TERMUX AUTO START\n "
+        + "            โหมดทำงาน TERMUX AUTO START\n "
         + "            CCMINER AFTER BOOT DEVIDE\n"
-        + "                RUNING AUTOMATIC\n"
+        + "                RUNNING AUTOMATIC\n"
         + "                                         DEC.2021")
     print("-------------------------------------------------\n")
 
@@ -94,7 +94,7 @@ def set_miner():
 
 while True:
     os.system("clear")
-    with MoonSpinner("กำลังทำงาน...") as bar:
+    with MoonSpinner("รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
