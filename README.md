@@ -8,7 +8,7 @@ apt-get update
 apt-get install git -y
 ```
 ```
-git clone https://github.com/creativeHHD/actives
+git clone https://github.com/creativeHHD/active
 ```
 ```
 cd auto-run-ccminer
