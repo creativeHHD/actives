@@ -93,21 +93,7 @@ def set_miner():
         json.dump(puts, set, indent=4)
 
 while True:
-    os.system("clear")
-    print("\n"
-      + "\n"
-        + "\n"
-          + "\n"
-            + "\n"
-              + "\n"
-                + "\n"
-                  + "\n"
-                    + "\n"
-                      + "\n"
-                        + "\n"
-                          + "\n"
-                            + "\n"
-                              + "\n")
+   os.system("clear")
    with MoonSpinner("                  รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
