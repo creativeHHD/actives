@@ -91,10 +91,9 @@ def set_miner():
     }
     with open("set-miner/miner.json", "w") as set:
         json.dump(puts, set, indent=4)
-
 while True:
-   os.system("clear")
-   with MoonSpinner("               รอสักครู่...") as bar:
+    os.system("clear")
+    with MoonSpinner("               รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
@@ -108,7 +107,7 @@ while True:
         else:
             set_miner()
     else:
-        os.system("mkdir set-miner")
+        os.system("mkdir set-miner")        
 
     
     
