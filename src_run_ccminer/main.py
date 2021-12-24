@@ -95,19 +95,19 @@ def set_miner():
 while True:
     os.system("clear")
     print("\n"
-      +"\n"
-        +"\n"
-          +"\n"
-            +"\n"
-              +"\n"
-                +"\n"
-                  +"\n"
-                    +"\n"
-                      +"\n"
-                        +"\n"
-                          +"\n"
-                            +"\n"
-                              +"\n")
+      + "\n"
+        + "\n"
+          + "\n"
+            + "\n"
+              + "\n"
+                + "\n"
+                  + "\n"
+                    + "\n"
+                      + "\n"
+                        + "\n"
+                          + "\n"
+                            + "\n"
+                              + "\n")
    with MoonSpinner("                  รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
