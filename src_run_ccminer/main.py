@@ -94,7 +94,7 @@ def set_miner():
 
 while True:
    os.system("clear")
-   with MoonSpinner("                  รอสักครู่...") as bar:
+   with MoonSpinner("            รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
