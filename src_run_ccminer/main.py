@@ -26,8 +26,8 @@ def banner(logo):
     print("-------------------------------------------------") 
     print("                   ACTIVE MODE\n"
         + "\n"
-        + "            โหมดทำงาน TERMUX AUTO START\n "
-        + "            CCMINER AFTER BOOT DEVIDE\n"
+        + "            โหมดตั้งค่า TERMUX AUTO START \n "
+        + "            CCMINER AFTER BOOT DEVICE\n"
         + "                RUNNING AUTOMATIC\n"
         + "                                         DEC.2021")
     print("-------------------------------------------------\n")
@@ -94,7 +94,21 @@ def set_miner():
 
 while True:
     os.system("clear")
-    with MoonSpinner("                 รอสักครู่...") as bar:
+    print("\n"
+      +("\n"
+        +("\n"
+          +("\n"
+            +("\n"
+              +("\n"
+                +("\n"
+                  +("\n"
+                    +("\n"
+                      +("\n"
+                        +("\n"
+                          +("\n"
+                            +("\n"
+                              +("\n")
+   with MoonSpinner("                  รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()

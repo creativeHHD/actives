@@ -19,7 +19,7 @@ def banner(logo):
     print("                   EDIT MODE\n"
         + ""
         + "            โหมดแก้ไข TERMUX AUTO START \n"
-        + "            CCMINER AFTER BOOT DEVIDE\n"
+        + "            CCMINER AFTER BOOT DEVICE\n"
         + "                RUNING AUTOMATIC\n"
         + "                                           DEC.2021")
     print("---------------------------------------------------\n")
@@ -61,7 +61,21 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-with MoonSpinner("โปรดรอ...") as bar:
+ print("\n"
+      +("\n"
+        +("\n"
+          +("\n"
+            +("\n"
+              +("\n"
+                +("\n"
+                  +("\n"
+                    +("\n"
+                      +("\n"
+                        +("\n"
+                          +("\n"
+                            +("\n"
+                              +("\n")   
+with MoonSpinner("                   โปรดรอ...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
