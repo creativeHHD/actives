@@ -11,6 +11,15 @@ edit_banner = """
 ║██   A █ C████ T █  I █ V███   E █████ ║  EDIT  ║
 ╚═══════════════════════════════════════╩════════╝"""
 
+droidedit_banner = """
+                     ╲___╱
+                    ╭ ▄ ▄ ╮
+                    ╿  -  ╿
+                  █ ███████ █
+                  █ █EDIT.█ █
+                    ███████ 
+                     ██ ██"""
+
 # banner function
 def banner(logo):
     os.system("clear")
@@ -64,12 +73,9 @@ os.system("clear")
 print("\n    ")
 print("\n    ")
 print("\n    ")
+banner(droidedit_banner)
 print("\n    ")
-print("\n    ")
-print("\n    ")
-print("\n    ")
-print("\n    ")
-with MoonSpinner("                 โปรดรอ...") as bar:
+with MoonSpinner("                  โปรดรอ...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()

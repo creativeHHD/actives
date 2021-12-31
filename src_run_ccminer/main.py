@@ -19,6 +19,15 @@ running_banner = """
 ║██A    █  C███   T    I  V██    E█████ ║ START  ║
 ╚═══════════════════════════════════════╩════════╝"""
 
+droid_banner = """
+                     ╲___╱
+                    ╭ ▄ ▄ ╮
+                    ╿  -  ╿
+                  █ ███████ █
+                  █ █ RUN █ █
+                    ███████ 
+                     ██ ██"""
+
 # banner function
 def banner(logo):
     os.system("clear")
@@ -96,12 +105,9 @@ while True:
     print("\n   ")
     print("\n   ")
     print("\n   ")
-    print("\n   ")
-    print("\n   ")
-    print("\n   ")
-    print("\n   ")
+    banner(droid_banner)
     print("\n   ")    
-    with MoonSpinner("                 รอสักครู่...") as bar:
+    with MoonSpinner("                   รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
