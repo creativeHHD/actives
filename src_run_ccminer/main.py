@@ -100,10 +100,8 @@ while True:
     print("\n   ")
     print("\n   ")
     print("\n   ")
-    print("\n   ")
-    print("\n   ")
     print("\n   ")    
-    with MoonSpinner("               รอสักครู่...") as bar:
+    with MoonSpinner("                 รอสักครู่...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
