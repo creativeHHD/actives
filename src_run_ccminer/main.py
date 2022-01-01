@@ -104,7 +104,7 @@ while True:
     print("   ")
     print("   ")
     print("                     ╲___╱")
-    print("                    ╭ ▄ ▄ ╮")
+    print("                    ╭▝ ▝ ╮")
     print("                  █ ███████ █")
     print("                  █ █ RUN █ █")
     print("                    ███████ ")
