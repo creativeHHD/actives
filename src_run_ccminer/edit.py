@@ -61,22 +61,6 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-    print("\n   ")
-        print("   ")
-            print("   ")
-                print("   ")
-                    print("   ")
-                        print("   ")
-                            print("   ")
-                                print("   ")
-                            print("   ")
-                        print("   ")
-                    print("                    ╭▝ ▝ ╮")
-                print("                  █ ███████ █")
-            print("                  █ █ EDI █ █")
-        print("                    ███████ ")
-    print("                     ██ ██ ")
-    print("  ")
 with MoonSpinner("                  โปรดรอ...") as bar:
         for i in range(100):
             time.sleep(0.05)
