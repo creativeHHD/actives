@@ -95,10 +95,12 @@ while True:
     os.system("clear")
     print("\n   ")
     print("\n   ")
-    print("\n   ")
-    print("\n   ")
-    print("\n   ")
-    print("\n   ")
+    print("                     ╲___╱\n")
+    print("                    ╭ ▄ ▄ ╮\n")
+    print("                  █ ███████ █\n")
+    print("                  █ █ RUN █ █\n")
+    print("                    ███████ \n")
+    print("                     ██ ██ \n")
     print("\n   ")
     with MoonSpinner("                   รอสักครู่...") as bar:
         for i in range(100):
