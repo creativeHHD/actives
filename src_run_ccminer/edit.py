@@ -3,13 +3,13 @@ from progress.spinner import MoonSpinner
 
 # banner
 edit_banner = """
-╔═══════════════════════════════════════╦════════╗
-║    ████  ████ █████  █  █    ██ █████ ║   V.1  ║
-║   ██  █  █      █    █  █   ██        ║CREATIVE║
-║  ██ ███  █      █    █  █  ██   ███   ║   HD   ║
-║ ██    █  █      █    █  █ ██          ╠════════╣
-║██   A █ C████ T █  I █ V███   E █████ ║  EDIT  ║
-╚═══════════════════════════════════════╩════════╝"""
+╔════════════════════════════════════╦════════╗
+║    ████ ████ █████ █ █    ██ █████ ║   V.1  ║
+║   ██  █ █      █   █ █   ██        ║CREATIVE║
+║  ██ ███ █      █   █ █  ██   ███   ║   HD   ║
+║ ██    █ █      █   █ █ ██          ╠════════╣
+║██   A █C████ T █  I█V███   E █████ ║  EDIT  ║
+╚════════════════════════════════════╩════════╝"""
 
 # banner function
 def banner(logo):
@@ -61,21 +61,20 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("   ")
-    print("                     ╲___╱")
-    print("                    ╭▝ ▝ ╮")
-    print("                  █ ███████ █")
-    print("                  █ █ EDI █ █")
-    print("                    ███████ ")
+    print("\n   ")
+        print("   ")
+            print("   ")
+                print("   ")
+                    print("   ")
+                        print("   ")
+                            print("   ")
+                                print("   ")
+                            print("   ")
+                        print("   ")
+                    print("                    ╭▝ ▝ ╮")
+                print("                  █ ███████ █")
+            print("                  █ █ EDI █ █")
+        print("                    ███████ ")
     print("                     ██ ██ ")
     print("  ")
 with MoonSpinner("                  โปรดรอ...") as bar:
