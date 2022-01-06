@@ -23,14 +23,14 @@ running_banner = """
 def banner(logo):
     os.system("clear")
     print(logo,"\nDevelobment by CREATIVE-HD")
-    print("-------------------------------------------------") 
+    print("------------------------------------------------") 
     print("                   ACTIVE MODE\n"
         + "\n"
         + "            โหมดตั้งค่า TERMUX AUTO START \n "
         + "            CCMINER AFTER BOOT DEVICE\n"
         + "                RUNNING AUTOMATIC\n"
-        + "                                         DEC.2021")
-    print("-------------------------------------------------\n")
+        + "                                        DEC.2021")
+    print("------------------------------------------------\n")
 
 
 # install miner function 
