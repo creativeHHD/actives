@@ -27,7 +27,7 @@ def banner(logo):
     print("                   ACTIVE MODE\n"
         + "    ▝  ▘\n"
         + " █ ███████ █     TERMUX AUTO START \n "
-        + " █ █ 2.2 █ █ CCMINER AFTER BOOT DEVICE\n"
+        + "█ █ 2.2 █ █ CCMINER AFTER BOOT DEVICE\n"
         + "   ███████       RUNNING AUTOMATIC\n"
         + "    ██ ██                             DEC.2021")
     print("------------------------------------------------\n")
