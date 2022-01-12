@@ -25,11 +25,11 @@ def banner(logo):
     print(logo,"\nDevelobment by CREATIVE-HD")
     print("------------------------------------------------") 
     print("                   ACTIVE MODE\n"
-        + "\n"
-        + "            โหมดตั้งค่า TERMUX AUTO START \n "
-        + "            CCMINER AFTER BOOT DEVICE\n"
-        + "                RUNNING AUTOMATIC\n"
-        + "                                        DEC.2021")
+        + "    ▝  ▘\n"
+        + " █ ███████ █     TERMUX AUTO START \n "
+        + " █ █ 2.2 █ █ CCMINER AFTER BOOT DEVICE\n"
+        + "   ███████       RUNNING AUTOMATIC\n"
+        + "    ██ ██                             DEC.2021")
     print("------------------------------------------------\n")
 
 
