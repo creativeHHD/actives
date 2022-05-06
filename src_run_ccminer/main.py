@@ -1,11 +1,6 @@
 import os, json, time
-from progress.spinner import Spinner
-spinner = Spinner('Loading ')
-while state != 'FINISHED':
-    # Do some work
-    spinner.next()
-
-    # banner
+from progress.spinner import MoonSpinner
+# banner
 setting_banner = """
 ╔════════════════════════════════════╦════════╗
 ║    ████ ████ █████ █ █    ██ █████ ║  V 2.2 ║
