@@ -1,5 +1,5 @@
 import os, json, time
-from progress.spinner import MoonSpinner
+
 # banner
 setting_banner = """
 ╔════════════════════════════════════╦════════╗
@@ -93,10 +93,7 @@ def set_miner():
         json.dump(puts, set, indent=4)
 while True:
     os.system("clear")
-    with MoonSpinner("                   รอสักครู่...") as bar:
-        for i in range(100):
-            time.sleep(0.05)
-            bar.next()
+
     if os.path.exists("ccminer_mmv") == False:
         install()
         break
